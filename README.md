@@ -74,4 +74,4 @@ Give a ⭐️ if you like this project!
 
 ## 📝 License
 
-This project is [MIT]() licensed.
+This project is [MIT](https://github.com/Abdona/Leaderboard/commit/1ca643850277eefbe874d6ef13423b63e3d706ec) licensed.
