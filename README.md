@@ -4,7 +4,7 @@
 
 
 # Project Preview
-![Leaderboard]()
+![Leaderboard](./src/images/leaderboard_wireframe.png)
 
 # Live Demo
 
@@ -71,6 +71,7 @@ Give a ⭐️ if you like this project!
 ## Acknowledgments
 
 - Microverse
+- Leadeboard
 
 ## 📝 License
 
