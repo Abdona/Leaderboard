@@ -1,0 +1,32 @@
+.showscore { 
+  margin-left: 50px;
+  width: 30%;
+}
+
+.showscore ul {
+  list-style: none;
+  border: 1px black solid;
+  margin: 0;
+  padding: 0;
+}
+
+.headcont h3 {
+  float: left;
+}
+
+.headcont button {
+  float: right;
+  margin-top: 20px;
+}
+
+.headcont::after{
+  content: '';
+  clear: both;
+  display: table;
+}
+
+.main {
+  display: flex;
+  justify-content: space-between;
+  padding: 100px;
+}
