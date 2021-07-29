@@ -22,7 +22,7 @@ export const getGamescore = async () => {
 };
 
 export const addScore = async (userName, userScore) => {
-  await fetch('https://us-central1-js-capstone-backend.cloudfunctions.net/api/games/', {
+  const resp = await fetch('https://us-central1-js-capstone-backend.cloudfunctions.net/api/games/Zl4d7IVkemOTTVg2fUdz/scores', {
     method: 'POST',
     body: JSON.stringify({
       user: userName,
@@ -32,4 +32,6 @@ export const addScore = async (userName, userScore) => {
       'Content-type': 'application/json; charset=UTF-8',
     },
   });
+  const respPar = await resp.json();
+  return respPar.result;
 };
