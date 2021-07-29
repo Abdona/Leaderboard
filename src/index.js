@@ -1,5 +1,5 @@
-//import score from './Scores.js';
-import './style.css';
+// import score from './Scores.js';
+// import './style.css';
 
 // let flag = true;
 // const list = document.getElementById('listcontainer');
@@ -13,8 +13,8 @@ import './style.css';
 //   flag = !flag;
 // });
 
-import Game from './LeaderScore.js';
+// import Game from './LeaderScore.js';
 
-const newGame = new Game();
+// const newGame = new Game();
 
-console.log (newGame.Create());
+// console.log (newGame.Create());

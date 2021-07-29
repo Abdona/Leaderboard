@@ -17,10 +17,3 @@ export default class Game {
     await addScore(userName, userScore);
   }
 }
-
-// 1.send a req using api to create a new game
-// 2.receive a json from api with the game id
-// 3.save game Id for later usage
-// 4.send a req to get score info using the id
-// 5.receive json with the score data.
-// 6.send a new score to the game.
