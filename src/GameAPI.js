@@ -11,7 +11,7 @@ export const createGame = async () => {
     },
   });
   const resParse = await res.json();
-  return resParse;
+  return resParse.result;
 };
 
 export const getGamescore = async () => {
