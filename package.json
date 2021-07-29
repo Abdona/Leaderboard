@@ -1,6 +1,5 @@
 {
   "name": "webpack-boilerplate",
-  "type": "module",
   "version": "1.0.0",
   "description": "Webpack Starting point.",
   "main": "index.js",

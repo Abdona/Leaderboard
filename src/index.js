@@ -1,20 +1,9 @@
-// import score from './Scores.js';
-// import './style.css';
+import './style.css';
+import creatHtml from './fsfsaf.js';
+import { getGamescore } from './GameAPI.js';
 
-// let flag = true;
-// const list = document.getElementById('listcontainer');
-// Object.keys(score()).forEach((key) => {
-//   const listelem = document.createElement('li');
-//   listelem.innerText = `${key} ${score()[key]}`;
-//   if (flag === false) {
-//     listelem.style.backgroundColor = '#DCDCDC';
-//   }
-//   list.appendChild(listelem);
-//   flag = !flag;
-// });
-
-// import Game from './LeaderScore.js';
-
-// const newGame = new Game();
-
-// console.log (newGame.Create());
+const refreshButt = document.getElementById('refreshbutt');
+refreshButt.addEventListener('click', async () => {
+  const scores = await getGamescore();
+  creatHtml(scores.result);
+});
