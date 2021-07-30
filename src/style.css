@@ -1,0 +1,58 @@
+.title {
+  margin-left: 10%;
+}
+
+.showscore {
+  margin-left: 50px;
+  width: 30%;
+}
+
+.butt {
+  background-color: white;
+  color: black;
+  box-shadow: 3px 2px;
+  padding: 2px;
+}
+
+.showscore ul {
+  list-style: none;
+  border: 2px black solid;
+  margin: 0;
+  padding: 0;
+}
+
+.headcont h3 {
+  float: left;
+}
+
+.headcont button {
+  float: right;
+  margin-top: 20px;
+}
+
+.headcont::after {
+  content: '';
+  clear: both;
+  display: table;
+}
+
+.main {
+  display: flex;
+  justify-content: space-evenly;
+  padding: 100px;
+}
+
+.addscore {
+  position: relative;
+}
+
+.addscore input {
+  border: 2px solid black;
+  margin-top: 10px;
+}
+
+#submbutt {
+  position: absolute;
+  right: 0;
+  margin-top: 10px;
+}
