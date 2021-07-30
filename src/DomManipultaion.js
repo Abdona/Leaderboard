@@ -6,7 +6,7 @@ export function creatHtml(game) {
     const listelem = document.createElement('li');
     listelem.innerText = `${item.user} ${item.score}`;
     if (flag === false) {
-      listelem.style.backgroundColor = '#DCDCDC';
+      listelem.style.backgroundColor = '#000';
     }
     list.appendChild(listelem);
     flag = !flag;
@@ -18,7 +18,7 @@ export function creatSubhtml(userName, userScore) {
   const listelem = document.createElement('li');
   listelem.innerText = `${userName} ${userScore}`;
   if (flag === false) {
-    listelem.style.backgroundColor = '#DCDCDC';
+    listelem.style.backgroundColor = '#000';
   }
   list.appendChild(listelem);
   flag = !flag;

@@ -15,7 +15,8 @@ refreshButt.addEventListener('click', async () => {
 });
 
 const submButt = document.getElementById('submbutt');
-submButt.addEventListener('click', async () => {
+submButt.addEventListener('click', async (e) => {
+  e.preventDefault();
   const userName = document.getElementById('username');
   const userScore = document.getElementById('userscore');
   creatSubhtml(userName.value, userScore.value);

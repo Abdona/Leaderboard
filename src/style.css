@@ -25,8 +25,8 @@ body {
   border-radius: 0.12em;
   box-sizing: border-box;
   text-decoration: none;
-  font-weight: 300;
-  color: #bf645c;
+  font-weight: bold;
+  color: #fff;
   text-align: center;
   transition: all 0.2s;
 }
@@ -45,9 +45,16 @@ body {
 
 .showscore ul {
   list-style: none;
-  border: 2px black solid;
   margin: 0;
   padding: 0;
+  overflow-y: scroll;
+  height: 250px;
+}
+
+.showscore ul li {
+  color: white;
+  font-size: large;
+  padding: 7px;
 }
 
 .headcont h2 {
@@ -76,8 +83,14 @@ body {
 }
 
 .addscore input {
-  border: 2px solid black;
+  /* border: 2px solid black; */
+  padding: 5px;
   margin-top: 10px;
+  text-align: center;
+}
+
+.addscore input:focus {
+  outline: none;
 }
 
 #submbutt {
