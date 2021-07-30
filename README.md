@@ -8,7 +8,7 @@
 
 # Live Demo
 
-[Leaderboard]()
+[Leaderboard](https://abdona.github.io/Leaderboard/dist/)
 
 ## Built With
 
