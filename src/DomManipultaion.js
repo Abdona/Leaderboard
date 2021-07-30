@@ -11,6 +11,3 @@ export default function creatHtml(game) {
     flag = !flag;
   });
 }
-// const fetch = require('cross-fetch');
-
-// fetch('https://us-central1-js-capstone-backend.cloudfunctions.net/api/games/Zl4d7IVkemOTTVg2fUdz/scores/').then((res) => res.json()).then((res) => console.log(res.result[0].user));
