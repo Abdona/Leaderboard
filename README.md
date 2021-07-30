@@ -4,7 +4,7 @@
 
 
 # Project Preview
-![Leaderboard](./src/images/leaderboard_wireframe.png)
+![Leaderboard](./src/images/Leaderboard.png)
 
 # Live Demo
 
