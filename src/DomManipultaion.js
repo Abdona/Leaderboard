@@ -1,7 +1,8 @@
 export default function creatHtml(game) {
+  const list = document.getElementById('listcontainer');
+  list.innerHTML = '';
+  let flag = true;
   game.forEach((item) => {
-    let flag = true;
-    const list = document.getElementById('listcontainer');
     const listelem = document.createElement('li');
     listelem.innerText = `${item.user} ${item.score}`;
     if (flag === false) {
